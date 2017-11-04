@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$.ajax({
+		type:"get",
+		url:"data/index.json",
+		async:true,
+		success(res){
+			console.log(res)
+		}
+	});
+})
